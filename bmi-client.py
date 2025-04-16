@@ -15,7 +15,7 @@ def llm_client(message:str):
   
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="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",
     )
 
     response = client.chat.completions.create(
